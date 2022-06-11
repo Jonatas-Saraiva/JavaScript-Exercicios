@@ -1,0 +1,22 @@
+body{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   font-family: sans-serif;
+   background-color: aquamarine;
+   font-size:20px;
+}
+.tag {
+border-radius: 50%;
+overflow: hidden;
+background-color: gray;
+
+}
+
+:checked +label  {
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: line-through;
+
+}
